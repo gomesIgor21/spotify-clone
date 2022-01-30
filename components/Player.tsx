@@ -17,7 +17,7 @@ import { useRecoilState } from 'recoil';
 import { currentTrackIdState, isPlayingState } from '../atoms/songAtom';
 import useSongInfo from '../hooks/useSongInfo';
 import useSpotify from '../hooks/useSpotify';
-import { debounce } from 'loadsh';
+import { debounce } from 'lodash';
 
 function Player() {
 	const spotifyApi = useSpotify();
