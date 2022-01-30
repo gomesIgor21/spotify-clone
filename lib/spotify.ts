@@ -14,8 +14,6 @@ const scopes = [
   "user-follow-read"  
 ].join(',');
 
-console.log(scopes)
-
 const params = {
   scope: scopes
 };
